@@ -23,18 +23,18 @@
 from FallenMusic import BOT_NAME
 
 PM_START_TEXT = """
-ʜᴇʏ {0}, 🥀
-๏ ᴛʜɪs ɪs** {1} !
+merhaba {0}, 🥀
+๏ benim adım** {1} !
 
 ➻ hızlı ve güçlü bir müzik çalar botu.
 """
 
 START_TEXT = """
-**ʜᴇʏ** {0}, 🥀
-  {1} ᴄᴀɴ ɴᴏᴡ ᴩʟᴀʏ sᴏɴɢs ɪɴ {2}.
+**merhaba** {0}, 🥀
+  {1} artık şarkıları çalabilirim {2}.
 
 ──────────────────
-➻ ғᴏʀ ɢᴇᴛᴛɪɴɢ ʜᴇʟᴘ ᴀʙᴏᴜᴛ ᴍᴇ ᴏʀ ɪғ ʏᴏᴜ ᴡᴀɴɴᴀ ᴀsᴋ sᴏᴍᴇᴛʜɪɴɢ ʏᴏᴜ ᴄᴀɴ ᴊᴏɪɴ ᴍʏ [sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ]({3}).
+➻ hakımda yardım almak için veya soru sormak için destek sohbetime [katılabilirsiniz]({3}).
 """
 
 HELP_TEXT = f"""
