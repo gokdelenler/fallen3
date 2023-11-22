@@ -53,7 +53,7 @@ async def edit_or_reply(msg: Message, **kwargs):
 @app.on_message(filters.command("eval") & SUDOERS & ~filters.forwarded)
 async def executor(client, message):
     if len(message.command) < 2:
-        return await edit_or_reply(message, text="**ᴡʜᴀᴛ ʏᴏᴜ ᴡᴀɴɴᴀ ᴇxᴇᴄᴜᴛᴇ ʙᴀʙʏ ?**")
+        return await edit_or_reply(message, text="**neyi yürütmek istiyorsun?**")
     try:
         cmd = message.text.split(" ", maxsplit=1)[1]
     except IndexError:
@@ -136,7 +136,7 @@ async def runtime_func_cq(_, cq):
 @app.on_message(filters.command("sh") & SUDOERS & ~filters.forwarded & ~filters.via_bot)
 async def shellrunner(client, message):
     if len(message.command) < 2:
-        return await edit_or_reply(message, text="**ᴇxᴀᴍᴩʟᴇ :**\n/sh git pull")
+        return await edit_or_reply(message, text="**örnek :**\n/sh git pull")
     text = message.text.split(None, 1)[1]
     if "\n" in text:
         code = text.split("\n")
