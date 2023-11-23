@@ -49,7 +49,7 @@ async def activevc(_, message: Message):
         await mystic.edit_text("aktif sesli sohbet yok...")
     else:
         await mystic.edit_text(
-            f"**şuanda aktif olan sesli sohbetlerin listesi:**\n\n{text}",
+            f"**şuanda aktif olan sesli sohbetlerin listesi :**\n\n{text}",
             reply_markup=close_key,
             disable_web_page_preview=True,
         )
